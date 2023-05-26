@@ -55,7 +55,7 @@ ALTER COLUMN total_deaths INT
 
   SELECT location, date, population, total_cases, total_deaths, (total_deaths/total_cases)*100 as deathpercentages
   FROM portfolioproject.dbo.coviddeaths
-  WHERE location like '%africa%'
+  --WHERE location like '%africa%'
   ORDER BY 1,2
 
   --Total cases Vs Population
@@ -89,14 +89,6 @@ _--calculating by continent
  GROUP BY continent
  ORDER BY highestdeathcount desc
 
- --showing the countries with highest death count per location
-
- SELECT continent, MAX(CAST(total_deaths As INT)) AS highestdeathcount
- FROM portfolioproject.dbo.coviddeaths
- -- WHERE location like '%africa%'
- WHERE continent is not null
- GROUP BY continent
- ORDER BY highestdeathcount desc
 
  --Global numbers
 SELECT SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(new_cases)*100 as deathpercentage
@@ -175,10 +167,10 @@ SELECT location, population, MAX((total_cases)) AS Highestinfectioncount, MAX((t
 
 
 
-create view deathpercentage as
+create view deathpercent as
  SELECT location, date, population, total_cases, total_deaths, (total_deaths/total_cases)*100 as deathpercentages
   FROM portfolioproject.dbo.coviddeaths
-  WHERE location like '%africa%'
+  --WHERE location like '%africa%'
   --ORDER BY 1,2
 
   create view highestdeathcount as
