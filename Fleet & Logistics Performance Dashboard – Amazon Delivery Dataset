@@ -1,1 +1,77 @@
+Key Findings
+
+Several operational patterns and performance difficulties were found across delivery conditions, traffic levels, weather categories, time periods, and agent groups after the Amazon last-mile delivery dataset was analysed using Excel and Power BI. The display showed that workload, geography, and external operating conditions all had a significant impact on delivery performance.
+
+1. The biggest influence on delivery time was traffic conditions.
+
+According to the data, deliveries made in areas with heavy traffic and congestion had the longest average delivery times in almost every delivery zone. Delivery performance was consistently slower in areas with high traffic than in sites with low or medium traffic. This suggests that one of the main causes of operating delay is traffic density.
+
+2. The average delivery time was greatest in semi-urban areas.
+
+Semi-urban zones had significantly longer average delivery times than urban and metropolitan areas among the delivery areas under analysis. These locations fared badly despite frequently having lower delivery densities than urban zones, indicating that operational allocation, route structure, or road accessibility may be important concerns.
+
+3. The largest delivery volume was handled throughout the evenings.
+
+Customer demand peaks later in the day, as seen by the biggest delivery volume during the evening. However, in some places, this increase in volume was also accompanied by longer average delivery times, indicating that dispatch and delivery operations may be under strain from peak-hour demand.
+
+4. Delivery inefficiencies were caused by the weather
+
+When compared to clearer weather, foggy, stormy, and windy conditions were linked to longer delivery times. Unfavourable weather conditions generally decreased delivery efficiency and contributed to slower completion times, albeit not all places were similarly affected.
+
+5. Even in areas with minimal traffic, certain delivery zones continued to operate slowly.
+
+Even when traffic conditions were not very bad, the monitor revealed that some delivery zones continued to have comparatively long delivery durations. This implies that rather than just traffic, operational inefficiencies in these regions may be related to route complexity, dispatch coordination, delivery density, or agent distribution.
+
+6. Agents with higher ratings typically finished deliveries more quickly.
+
+Delivery agents with better rating bands tended to report shorter average delivery times than lower-rated groups, according to agent performance research. This implies that enhanced delivery performance could be attributed to experience, route familiarity, and operational effectiveness.
+
+7. Overall delivery delays were caused by pickup slowness.
+
+Delivery travel time is not the only factor contributing to delays, according to an analysis of the time discrepancy between order placing and pickup. In certain instances, longer end-to-end delivery times were largely caused by slower pickup processing or dispatch coordination.
+
+8. Deliveries across short distances weren't always effective
+
+The analysis identified a number of short-distance deliveries that still recorded unusually high delivery duration. This implies that efficiency may be impacted by operational obstacles regardless of journey distance, such as delayed dispatch, traffic concentration, ineffective routing, or agent workload.
+
+Suggestions
+
+Several operational changes are suggested to boost delivery effectiveness, cut down on delays, and improve overall logistics performance based on the dashboard's observations.
+
+1. Give route optimisation first priority in areas with heavy traffic.
+
+Route planning techniques should be modified for high-traffic and jam-prone areas since traffic density had the biggest effect on delivery time. During times of high traffic, this could involve staggered dispatch scheduling, alternative route assignment, or dynamic routing.
+
+2. Give semi-urban delivery zones more operational attention
+
+Semi-urban areas should be examined independently from urban and metropolitan zones because they routinely had greater average delivery times. To find out if delivery density, dispatch allocation, or route accessibility are causing slower performance, more research should be done.
+
+3. Increase dispatch and personnel during evening peak hours.
+
+Because evening periods generated the highest delivery volume, additional delivery agents or dispatch resources may be required during these hours. Better workload balancing during peak periods could help reduce delivery backlog and improve turnaround time.
+
+4. Implement weather-responsive delivery planning
+
+Adverse weather conditions were associated with slower delivery performance. Operations teams should consider introducing weather-linked planning rules such as adjusted dispatch timing, delivery prioritisation, or contingency routing during poor weather conditions.
+
+5. Monitor area-specific performance instead of relying only on company-wide averages
+
+Some locations remained inefficient even under moderate traffic conditions, meaning that overall company averages may hide localised operational issues. Delivery performance should therefore be monitored at the city or zone level to identify persistent underperforming areas.
+
+6. Investigate causes of high pickup lag
+
+Pickup delay contributed significantly to total delivery duration in several cases. The organisation should evaluate whether delays originate from restaurant preparation time, dispatch assignment speed, or driver availability during high-demand periods.
+
+7. Use agent performance metrics to support operational improvement
+
+Since higher-rated agents generally completed deliveries faster, operational managers should identify best-performing delivery behaviours and use them to guide training, route familiarisation, or performance improvement initiatives for lower-performing agents.
+
+8. Investigate inefficient short-distance deliveries
+
+Short-distance deliveries with unusually long completion times should be examined further to determine whether inefficiencies are caused by dispatch delays, traffic concentration, order batching, or route planning problems.
+
+9. Introduce continuous performance monitoring dashboards
+
+The Power BI dashboard should be maintained as a continuous operational monitoring tool rather than a one-time analysis exercise. Real-time or periodic monitoring of delay trends, traffic impact, workload distribution, and area performance can support faster decision-making and operational optimisation.
+
 
